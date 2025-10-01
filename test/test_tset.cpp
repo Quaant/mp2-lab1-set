@@ -15,9 +15,9 @@ TEST(TSet, can_insert_non_existing_element)
   const int size = 5, k = 3;
   TSet set(size);
   set.InsElem(k);
-
+  cout << TBitField(set); 
   EXPECT_NE(set.IsMember(k), 0);
-}
+}	
 
 TEST(TSet, can_insert_existing_element)
 {
@@ -131,7 +131,7 @@ TEST(TSet, can_insert_non_existing_element_using_plus_operator)
   set.InsElem(0);
   set.InsElem(2);
   updatedSet = set + k;
-
+  
   EXPECT_NE(0, updatedSet.IsMember(k));
 }
 
