@@ -1,0 +1,14 @@
+/home/quaant/source/repos/mp2-lab1-set/build_debug/CMakeFiles/edit_cache.dir
+/home/quaant/source/repos/mp2-lab1-set/build_debug/CMakeFiles/rebuild_cache.dir
+/home/quaant/source/repos/mp2-lab1-set/build_debug/src/CMakeFiles/set.dir
+/home/quaant/source/repos/mp2-lab1-set/build_debug/src/CMakeFiles/edit_cache.dir
+/home/quaant/source/repos/mp2-lab1-set/build_debug/src/CMakeFiles/rebuild_cache.dir
+/home/quaant/source/repos/mp2-lab1-set/build_debug/samples/CMakeFiles/sample_prime_numbers.dir
+/home/quaant/source/repos/mp2-lab1-set/build_debug/samples/CMakeFiles/edit_cache.dir
+/home/quaant/source/repos/mp2-lab1-set/build_debug/samples/CMakeFiles/rebuild_cache.dir
+/home/quaant/source/repos/mp2-lab1-set/build_debug/gtest/CMakeFiles/gtest.dir
+/home/quaant/source/repos/mp2-lab1-set/build_debug/gtest/CMakeFiles/edit_cache.dir
+/home/quaant/source/repos/mp2-lab1-set/build_debug/gtest/CMakeFiles/rebuild_cache.dir
+/home/quaant/source/repos/mp2-lab1-set/build_debug/test/CMakeFiles/test_set.dir
+/home/quaant/source/repos/mp2-lab1-set/build_debug/test/CMakeFiles/edit_cache.dir
+/home/quaant/source/repos/mp2-lab1-set/build_debug/test/CMakeFiles/rebuild_cache.dir

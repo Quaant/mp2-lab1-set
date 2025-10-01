@@ -1,6 +1,5 @@
 #include "../gtest/gtest.h"
-#include "tset.h"
-
+#include "../include/tset.h"
 
 TEST(TSet, can_get_max_power_set)
 {
@@ -15,9 +14,9 @@ TEST(TSet, can_insert_non_existing_element)
   const int size = 5, k = 3;
   TSet set(size);
   set.InsElem(k);
-  cout << TBitField(set); 
+  cout << TBitField(set);
   EXPECT_NE(set.IsMember(k), 0);
-}	
+}
 
 TEST(TSet, can_insert_existing_element)
 {
@@ -131,7 +130,7 @@ TEST(TSet, can_insert_non_existing_element_using_plus_operator)
   set.InsElem(0);
   set.InsElem(2);
   updatedSet = set + k;
-  
+
   EXPECT_NE(0, updatedSet.IsMember(k));
 }
 
@@ -285,11 +284,11 @@ TEST(TSet, check_negation_operator)
 {
   const int size = 4;
   TSet set(size), set1(size), expSet(size);
-   
+
   set.InsElem(1);
   set.InsElem(3);
   set1 = ~set;
- 
+
   expSet.InsElem(0);
   expSet.InsElem(2);
 
